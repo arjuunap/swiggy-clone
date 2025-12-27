@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(assets/fonts/Gilroy-Regular.ttf);
+}
+.section1{
+    height: 120vh;
+    background-color: #FF5200;
+    position: relative;
+}
+
+.header{
+    background-color:#FF5200 ;
+    height: 118px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.inner-header{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px auto;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 46px;
+
+}   
+
+.about a{
+    margin-right: 25px;
+    color: white;
+    font-family: Gilroy ;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.about .get-the-app{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.about .sign-in{
+    padding: 18px 45px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.order-food{
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: 'Gilroy';
+    font-weight:bolder;
+    font-size: 28px ;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    margin: 0px auto;
+    margin-top: 20px;
+    color: gray;
+    font-family: 'Gilroy';
+    font-size: 14px;
+
+}
+
+.search-box .location{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+.search-box .search-restaurant{
+    background-color: white;
+     padding: 20px;
+     font-weight: bolder;
+     border-radius: 8px;
+}
+.search-restaurant .fa-solid{
+    margin-left: 10px;
+}
+.location .fa-duotone{
+    margin-right: 10px;
+    
+}
+
+
+.main-left-image img{
+    position: absolute;
+    height: 450px;
+    width: 250px;
+   
+    top: 110px;
+    left: 0px;
+}
+
+.main-right-image img{
+    position: absolute;
+   
+    top: 110px;
+    right: 0px;
+    height: 450px;
+    width: 250px;
+}
+
+.main-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.food-delivery img{
+    height: 372px;
+    width: 601px;
+}
+
+
+.instamart img{
+    height: 372px;
+    width: 601px;
+}
+
