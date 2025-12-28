@@ -142,3 +142,37 @@
     width: 601px;
 }
 
+
+
+/* food section */
+
+.food-section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 40px;
+    
+
+}
+
+.food-section h1{
+    margin-left:20px ;
+    font-family: "Gilroy";
+    margin-bottom: 20px;
+}
+.food-slider{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    overflow-x: auto;
+
+}
+.food-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.food-card img{
+    width : 144px;
+    height: 180px;
+    margin-right: 25px
+}
+
